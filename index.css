@@ -1,0 +1,116 @@
+body {
+  background-color: #fdedfd;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#navStyle{
+  font-size: 1.5em;
+  height: 20em;
+  color: #a09d9d
+}
+#namesize{
+  font-size: 2.5em;
+  margin-left:2%;
+  color: rgb(214, 211, 211);
+}
+
+#listStyle{
+  margin-left:40%;
+}
+
+.navbar {
+    overflow: visible !important;
+    background-color: rgb(233, 250, 210) !important;
+    position: fixed !important;
+    z-index:1; 
+    top: 0px;
+    width: 100%;
+    min-height: 50px;
+  }
+
+  #aboutMe h1 {
+    font-size: 3.0em;
+    text-align: center;
+  }
+    
+  #aboutMe h2 {
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+  .card-body {
+    background-color: white;
+  }
+
+#aboutMe {
+    background: url(../myPortfolio/assets/lights1.jpg) no-repeat center center;
+    padding: 150px 0;
+    background-size: cover;
+}
+
+#aboutMe p {
+    text-align: center
+}
+
+#proj p {
+    text-align: center
+}
+
+#proj {
+  background-color: #C2E1E3;
+  padding: 75px 10px;
+}
+
+.typewriter h3 {
+    font-family: monospace; /* Web-safe typewriter-like font */
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid rgb(255, 251, 0); /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .05em; /* Adjust as needed */
+    text-align: center;
+    animation: 
+      typing 5.5s steps(20, end),
+      blinking-cursor 1.5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blinking-cursor {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(241, 232, 146); }
+  }
+
+
+#proj h1 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#contact h1 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#listDetails{
+    color: rgb(228, 218, 218) 
+}
+
+#contact {
+    padding: 25px 0;
+    color: #3d3c3c;
+    background: url(../myPortfolio/assets/notebook5.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#footer {
+  padding: 15px 0;
+  background-color: black;
+  text-align:center;
+  color: pink;
+}
