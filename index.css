@@ -43,7 +43,7 @@ body {
   }
 
 #aboutMe {
-    background: url(../myPortfolio/assets/lights1.jpg) no-repeat center center;
+    background: url(./assets/lights1.jpg) no-repeat center center;
     padding: 150px 0;
     background-size: cover;
 }
@@ -104,7 +104,7 @@ body {
 #contact {
     padding: 25px 0;
     color: #3d3c3c;
-    background: url(../myPortfolio/assets/notebook5.jpg) no-repeat center center;
+    background: url(./assets/notebook5.jpg) no-repeat center center;
     background-size: cover;
 }
 
