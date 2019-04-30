@@ -27,6 +27,10 @@ body {
     width: 100%;
     min-height: 50px;
   }
+.welcome {
+  font-size: 20px;
+}
+
 
   #aboutMe h1 {
     font-size: 3.0em;
@@ -66,7 +70,7 @@ body {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .15em solid rgb(255, 251, 0); /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    margin: 0px auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .05em; /* Adjust as needed */
     text-align: center;
     animation: 
