@@ -1,5 +1,5 @@
 body {
-  background-color: #fdedfd;
+  background-color: #E9F6F7;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -20,7 +20,7 @@ body {
 
 .navbar {
     overflow: visible !important;
-    background-color: rgb(233, 250, 210) !important;
+    background-color: #90C2C4 !important;
     position: fixed !important;
     z-index:1; 
     top: 0px;
@@ -71,13 +71,13 @@ body {
     border-right: .15em solid rgb(255, 251, 0); /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0px auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .05em; /* Adjust as needed */
     text-align: center;
     animation: 
       typing 5.5s steps(20, end),
       blinking-cursor 1.5s step-end infinite;
   }
   
+
   /* The typing effect */
   @keyframes typing {
     from { width: 0 }
@@ -90,6 +90,23 @@ body {
     50% { border-color: rgb(241, 232, 146); }
   }
 
+  @media all and (max-width: 980px) {
+    .typewriter h3 {
+      font-size: 15px;
+    }
+  }
+  
+  @media all and (max-width: 882px) {
+    .typewriter h3 {
+      font-size: 12px;
+    }
+  }
+
+  @media all and (max-width: 783px) {
+    .typewriter h3 {
+      font-size: 11px;
+    }
+  }
 
 #proj h1 {
     font-size: 1.5em;
