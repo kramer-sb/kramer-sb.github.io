@@ -19,7 +19,7 @@ body {
 }
 
 .navbar {
-    overflow: visible !important;
+    /* overflow: visible !important; */
     background-color: #90C2C4 !important;
     position: fixed !important;
     z-index:1; 
@@ -30,7 +30,6 @@ body {
 .welcome {
   font-size: 20px;
 }
-
 
   #aboutMe h1 {
     font-size: 3.0em;
