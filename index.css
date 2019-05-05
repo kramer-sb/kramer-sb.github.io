@@ -6,7 +6,7 @@ body {
 #navStyle{
   font-size: 1.5em;
   height: 20em;
-  color: #a09d9d
+  color: #a09d9d;
 }
 #namesize{
   font-size: 2.5em;
@@ -24,7 +24,7 @@ body {
     position: fixed !important;
     z-index:1; 
     top: 0px;
-    width: 100%;
+    width: 100vw;
     min-height: 50px;
   }
 .welcome {
@@ -75,7 +75,6 @@ body {
       typing 5.5s steps(20, end),
       blinking-cursor 1.5s step-end infinite;
   }
-  
 
   /* The typing effect */
   @keyframes typing {
@@ -126,7 +125,7 @@ body {
     color: #3d3c3c;
     background: url(./assets/notebook5.jpg) no-repeat center center;
     background-size: cover;
-}
+  }
 
 #footer {
   padding: 15px 0;
